@@ -1,0 +1,64 @@
+
+@clr-base: #313131;
+@clr-att: #d829ad;
+
+@min: 320px;
+@max: 1160px;
+
+/* ----------------------------------- *\
+			main styles
+\* ----------------------------------- */
+body {
+	color: @clr-base;
+	background: #fff;
+	font-size: 16px;
+	line-height: 1.3333;
+}
+h1, h2, .main-title, .second-title {
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+h2, .second-title {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+a {
+	color: @clr-base;
+	text-decoration: none;
+	&:hover {
+		color: @clr-att;
+	}
+}
+p {
+	margin-bottom: 24px;
+}
+.att-text {
+	color: @clr-att;
+}
+.inner-title {
+	margin-bottom: 15px;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 400;
+	span, h1, h2, h3 {
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		font-weight: 400;
+		margin: 0;
+		color: #fff;
+		padding: 0 12px;
+		background: #333333;
+	}
+}
+@media (max-width: 639px) {
+	h1, .main-title {
+		font-size: 30px;
+	}
+}
+@media (min-width: 768px) {
+	body {
+		font-size: 18px;
+	}
+}

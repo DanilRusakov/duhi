@@ -1,0 +1,198 @@
+/*
+ * 	Moneymaker 2 Theme Owl Carousel CSS File
+ */
+
+.owl-moneymaker2.owl-carousel {
+    background-color: #000;
+}
+.owl-moneymaker2-fullscreen .owl-moneymaker2-top {
+    border-bottom: 3px solid #ccc;
+}
+.owl-moneymaker2-fullscreen .owl-moneymaker2-bottom {
+    margin-bottom: 0px;
+    border-top: 3px solid #ccc;
+}
+body.owl-moneymaker2-fullscreen-bottom footer {
+    margin-top: 0px;
+}
+.owl-moneymaker2-fullscreen .owl-moneymaker2-top .owl-item img, .owl-moneymaker2-fullscreen .owl-moneymaker2-bottom .owl-item img {
+    width: 100%;
+}
+
+.owl-moneymaker2 .owl-wrapper-outer {
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+.owl-moneymaker2.owl-carousel .owl-buttons div {
+    text-shadow: none;
+}
+.owl-moneymaker2.owl-carousel .owl-buttons div i {
+    font-size: 28px !important;
+    margin: -20px 0 0;
+}
+.owl-moneymaker2 .owl-pagination {
+    text-align: center;
+    top: 0px;
+    position: relative;
+}
+.owl-moneymaker2 .owl-controls .owl-page {
+    margin: 0px 5px;
+    margin-bottom: 5px;
+}
+.owl-moneymaker2 .owl-controls .owl-page span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    box-shadow: none;
+}
+.owl-moneymaker2.light-pagination .owl-controls .owl-page span {
+    background: rgb(60, 60, 60);
+    background: rgba(255, 255, 255, 0.2);
+}
+.owl-moneymaker2.dark-pagination .owl-controls .owl-page span {
+    background: rgb(210, 210, 210);
+    background: rgba(1, 1, 1, 0.1);
+}
+.owl-moneymaker2.light-pagination .owl-controls .owl-page.active span {
+    background: rgb(119, 119, 119);
+    background: rgba(255, 255, 255, 0.5);
+}
+.owl-moneymaker2.dark-pagination .owl-controls .owl-page.active span {
+    background: rgb(160, 160, 160);
+    background: rgba(1, 1, 1, 0.3);
+}
+.owl-moneymaker2 .item-text {
+    z-index: 2;
+}
+.owl-moneymaker2 .item-text > div {
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 1.1;
+}
+.owl-moneymaker2 .item-text .btn {
+    margin-top: 7px;
+}
+.owl-moneymaker2 .item-text {
+    position: absolute;
+}
+.owl-moneymaker2 .item-text.light {
+    color: #fff;
+}
+.owl-moneymaker2 .item-text.dark {
+    color: #111;
+}
+.owl-moneymaker2 .item-text.light div, .owl-moneymaker2 .item-text.light p.hidden-xs {
+    text-shadow: 0px 0px 10px #000;
+}
+.owl-moneymaker2 .item-text.dark div, .owl-moneymaker2 .item-text.dark p.hidden-xs {
+    text-shadow: 0px 0px 10px #fff;
+}
+body > .owl-moneymaker2 .item-text.top-left, body > .owl-moneymaker2 .item-text.top-center, body > .owl-moneymaker2 .item-text.top-right {
+    margin-top: 55px;
+}
+.owl-moneymaker2 .item-text.top-center, .owl-moneymaker2 .item-text.middle-center, .owl-moneymaker2 .item-text.bottom-center {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.owl-moneymaker2 .item-text.top-left, .owl-moneymaker2 .item-text.top-center, .owl-moneymaker2 .item-text.top-right {top: 5%;}
+.owl-moneymaker2 .item-text.top-left {left: 5%;}
+.owl-moneymaker2 .item-text.top-right {right: 5%}
+.owl-moneymaker2 .item-text.middle-left, .owl-moneymaker2 .item-text.middle-center, .owl-moneymaker2 .item-text.middle-right {margin-top: -34px; top: 50%;}
+.owl-moneymaker2 .item-text.middle-left {left: 5%;}
+.owl-moneymaker2 .item-text.middle-right {right: 5%;}
+.owl-moneymaker2 .item-text.bottom-left, .owl-moneymaker2 .item-text.bottom-center, .owl-moneymaker2 .item-text.bottom-right {bottom: 7%;}
+.owl-moneymaker2 .item-text.bottom-left {left: 5%;}
+.owl-moneymaker2 .item-text.bottom-right {right: 5%}
+
+.owl-carousel.owl-moneymaker2:hover .owl-buttons div {
+    opacity: 0.7;
+}
+.owl-carousel.owl-moneymaker2 .owl-buttons div:hover {
+    opacity: 1;
+}
+.owl-moneymaker2 .owl-buttons .owl-prev, .owl-moneymaker2 .owl-buttons .owl-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    padding: 8px;
+}
+.owl-moneymaker2.dark-buttons .owl-buttons .owl-prev, .owl-moneymaker2.dark-buttons .owl-buttons .owl-next {
+    color: #222;
+    text-shadow: 0px 0px 20px rgb(220, 220, 220);
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+}
+.owl-moneymaker2.dark-buttons .owl-buttons .owl-prev:hover, .owl-moneymaker2.dark-buttons .owl-buttons .owl-next:hover {
+    color: #777;
+}
+.owl-moneymaker2.light-buttons .owl-buttons .owl-prev, .owl-moneymaker2.light-buttons .owl-buttons .owl-next {
+    color: #fff;
+    text-shadow: 0px 0px 20px rgb(51, 51, 51);
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+.owl-moneymaker2.light-buttons .owl-buttons .owl-prev:hover, .owl-moneymaker2.light-buttons .owl-buttons .owl-next:hover {
+    color: #fff;
+}
+@media (min-width: 768px) {
+    body > .owl-moneymaker2 .owl-buttons .owl-prev, body > .owl-moneymaker2 .owl-buttons .owl-next {
+        margin-top: 0px;
+    }
+    body.owl-moneymaker2-fullscreen header > .navbar-default {
+        position: absolute;
+    }
+}
+/*product thumbs*/
+.image-additional .owl-moneymaker2.owl-carousel {
+    background-color: #fff;
+}
+.image-additional .owl-moneymaker2 .owl-pagination {
+    margin-right: 6px;
+}
+.image-additional .owl-moneymaker2 .owl-pagination {
+    margin-top: 5px;
+    margin-bottom: -25px;
+}
+.image-additional .owl-moneymaker2 .owl-controls .owl-page span {
+    border-radius: 50%;
+}
+@media (min-width: 992px) {
+    .image-additional .owl-moneymaker2 .owl-item img {
+        margin: 0;
+    }
+}
+@media (max-width: 991px) {
+    .owl-moneymaker2 .owl-wrapper {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .owl-moneymaker2 .item-text .btn {
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+    }
+    .owl-moneymaker2 .item-text > div {
+        font-size: 20px;
+        margin: 0;
+    }
+    body > .owl-moneymaker2 .item-text.top-left, body > .owl-moneymaker2 .item-text.top-center, body > .owl-moneymaker2 .item-text.top-right {
+        margin-top: 0px;
+    }
+}
+.owl-moneymaker2 .owl-pagination {
+    margin-top: -20px;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
